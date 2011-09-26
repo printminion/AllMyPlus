@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule user/.* index.php
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
