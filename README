@@ -1,0 +1,21 @@
+This script will read the Google+ activities for one user and display various statistics as well as a full list of recent posts.
+
+Requirements:
+1) Google JS-API Key
+  Sign up for an API Key for using the Google JS-API loader http://code.google.com/apis/loader/
+  Put it instead of {JS API Key} in index.php
+  
+2) Download and setup the Google APIs Client Library for php
+  http://code.google.com/p/google-api-php-client/
+  Adjust the paths {Path to G-API-client} as necessary
+  
+3) OAuth Tokens and Application Key at Google API Console
+  https://code.google.com/apis/console/
+  Create a new project.
+  Activate the Google+ API in Services
+  Create OAuth2 Tokens in "API Access"
+  Adjust settings in Quotas as necessary.
+  
+  Replace {Client ID}, {Client Secret} and {Developer Key} with your values.
+  
+  
